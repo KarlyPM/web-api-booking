@@ -1,0 +1,11 @@
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\bin\Debug\net8.0\WebApi.Booking.Persistence.deps.json
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\bin\Debug\net8.0\WebApi.Booking.Persistence.dll
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\bin\Debug\net8.0\WebApi.Booking.Persistence.pdb
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\WebApi.Booking.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\WebApi.Booking.Persistence.AssemblyInfoInputs.cache
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\WebApi.Booking.Persistence.AssemblyInfo.cs
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\WebApi.Booking.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\WebApi.Booking.Persistence.dll
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\refint\WebApi.Booking.Persistence.dll
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\WebApi.Booking.Persistence.pdb
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Infrastructure\WebApi.Booking.Persistence\obj\Debug\net8.0\ref\WebApi.Booking.Persistence.dll

@@ -1,0 +1,11 @@
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\bin\Debug\net8.0\WebApi.Booking.Domain.deps.json
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\bin\Debug\net8.0\WebApi.Booking.Domain.dll
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\bin\Debug\net8.0\WebApi.Booking.Domain.pdb
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\WebApi.Booking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\WebApi.Booking.Domain.AssemblyInfoInputs.cache
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\WebApi.Booking.Domain.AssemblyInfo.cs
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\WebApi.Booking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\WebApi.Booking.Domain.dll
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\refint\WebApi.Booking.Domain.dll
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\WebApi.Booking.Domain.pdb
+C:\Users\kpazan\source\repos\WebApiPractice.Booking\Core\WebApi.Booking.Domain\obj\Debug\net8.0\ref\WebApi.Booking.Domain.dll
