@@ -1,6 +1,0 @@
-@WebApi.Booking.Api_HostAddress = http://localhost:5053
-
-GET {{WebApi.Booking.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
