@@ -12,7 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\WebApi.Booking.Common\WebApi.Booking.Common.csproj" />
     <ProjectReference Include="..\..\Core\WebApi.Booking.Application\WebApi.Booking.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\WebApi.Booking.External\WebApi.Booking.External.csproj" />
     <ProjectReference Include="..\..\Infrastructure\WebApi.Booking.Persistence\WebApi.Booking.Persistence.csproj" />
   </ItemGroup>
 

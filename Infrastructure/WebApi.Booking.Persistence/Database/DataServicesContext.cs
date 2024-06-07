@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebApi.Booking.Application.Interfaces;
+using WebApi.Booking.Application.DataBase;
 using WebApi.Booking.Domain.Models.Booking;
 using WebApi.Booking.Domain.Models.Customer;
 using WebApi.Booking.Domain.Models.User;
@@ -14,9 +9,9 @@ namespace WebApi.Booking.Persistence.Database
 {
     public class DataServicesContext : DbContext, IDataServicesContext
     {
-        public DataServicesContext(DbContextOptions options) : base(options) 
+        public DataServicesContext(DbContextOptions options) : base(options)
         {
-            
+
         }
 
         public DbSet<UserEntity> User { get; set; }

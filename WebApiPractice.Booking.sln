@@ -9,17 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BB0348E2-498F-45F5-8D6F-55D4C5F4BB38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Api", "Api\WebApi.Booking.Api\WebApi.Booking.Api.csproj", "{113EFBB9-336D-4628-9110-B3BC1DD56007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.Api", "Api\WebApi.Booking.Api\WebApi.Booking.Api.csproj", "{113EFBB9-336D-4628-9110-B3BC1DD56007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Application", "Core\WebApi.Booking.Application\WebApi.Booking.Application.csproj", "{5D726AB4-684E-4F26-B964-C9E4B4C7718B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.Application", "Core\WebApi.Booking.Application\WebApi.Booking.Application.csproj", "{5D726AB4-684E-4F26-B964-C9E4B4C7718B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Persistence", "Infrastructure\WebApi.Booking.Persistence\WebApi.Booking.Persistence.csproj", "{101CF4ED-2345-48B1-AC6F-BC092C23905D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.Persistence", "Infrastructure\WebApi.Booking.Persistence\WebApi.Booking.Persistence.csproj", "{101CF4ED-2345-48B1-AC6F-BC092C23905D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.External", "Infrastructure\WebApi.Booking.External\WebApi.Booking.External.csproj", "{455E06A7-99DF-488F-9C23-BBEA92113ACA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.External", "Infrastructure\WebApi.Booking.External\WebApi.Booking.External.csproj", "{455E06A7-99DF-488F-9C23-BBEA92113ACA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4CCD88D2-3345-4335-9AD9-99C91F296BC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Domain", "Core\WebApi.Booking.Domain\WebApi.Booking.Domain.csproj", "{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.Domain", "Core\WebApi.Booking.Domain\WebApi.Booking.Domain.csproj", "{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Common", "Common\WebApi.Booking.Common\WebApi.Booking.Common.csproj", "{141BFC02-3E60-40E7-B348-C221F554EED6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141BFC02-3E60-40E7-B348-C221F554EED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141BFC02-3E60-40E7-B348-C221F554EED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141BFC02-3E60-40E7-B348-C221F554EED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141BFC02-3E60-40E7-B348-C221F554EED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{101CF4ED-2345-48B1-AC6F-BC092C23905D} = {085AC304-D7FF-4B4D-A627-6A13E7EE53AF}
 		{455E06A7-99DF-488F-9C23-BBEA92113ACA} = {085AC304-D7FF-4B4D-A627-6A13E7EE53AF}
 		{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31} = {BB0348E2-498F-45F5-8D6F-55D4C5F4BB38}
+		{141BFC02-3E60-40E7-B348-C221F554EED6} = {4CCD88D2-3345-4335-9AD9-99C91F296BC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7F6AED6-ACF6-422C-B55F-070335056229}

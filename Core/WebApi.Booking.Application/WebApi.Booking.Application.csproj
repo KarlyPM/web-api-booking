@@ -7,11 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\WebApi.Booking.Domain\WebApi.Booking.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataBase\Bookings\Commands\" />
+    <Folder Include="DataBase\Bookings\Queries\" />
+    <Folder Include="DataBase\Customer\Commands\" />
+    <Folder Include="DataBase\Customer\Queries\" />
+    <Folder Include="DataBase\User\Queries\" />
   </ItemGroup>
 
 </Project>

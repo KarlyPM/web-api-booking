@@ -4,7 +4,7 @@ using WebApi.Booking.Domain.Models.Booking;
 using WebApi.Booking.Domain.Models.Customer;
 using WebApi.Booking.Domain.Models.User;
 
-namespace WebApi.Booking.Application.Interfaces
+namespace WebApi.Booking.Application.DataBase
 {
     public interface IDataServicesContext
     {
