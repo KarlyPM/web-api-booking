@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\WebApi.Booking.Application\WebApi.Booking.Application.csproj" />
     <ProjectReference Include="..\..\Core\WebApi.Booking.Domain\WebApi.Booking.Domain.csproj" />
   </ItemGroup>
 
