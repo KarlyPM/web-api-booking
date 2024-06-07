@@ -12,7 +12,7 @@ using WebApi.Booking.Persistence.Configuration;
 
 namespace WebApi.Booking.Persistence.Database
 {
-    internal class DataServicesContext : DbContext, IDataServicesContext
+    public class DataServicesContext : DbContext, IDataServicesContext
     {
         public DataServicesContext(DbContextOptions options) : base(options) 
         {

@@ -8,7 +8,7 @@ using WebApi.Booking.Domain.Models.Customer;
 
 namespace WebApi.Booking.Persistence.Configuration
 {
-    internal class CustomerConfiguration
+    public class CustomerConfiguration
     {
         public CustomerConfiguration(EntityTypeBuilder<CustomerEntity> entityTypeBuilder)
         {
