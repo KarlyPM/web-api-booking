@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
 using WebApi.Booking.Application.DataBase;
 using WebApi.Booking.Persistence.Database;
 
@@ -14,7 +13,7 @@ namespace WebApi.Booking.Persistence
             services.AddDbContext<DataServicesContext>(options =>
                         options.UseSqlServer(configuration["SQLConnectionStrings"]));
 
-            services.AddScoped<IDataServicesContext, DataServicesContext>();
+            services.AddScoped<IDataBaseServices, DataServicesContext>();
 
 
             //Assembly.GetExecutingAssembly()

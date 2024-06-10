@@ -16,9 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataBase\Bookings\Commands\" />
+    <Folder Include="DataBase\Bookings\Commands\UpdateBooking\" />
     <Folder Include="DataBase\Bookings\Queries\" />
-    <Folder Include="DataBase\Customer\Commands\" />
     <Folder Include="DataBase\Customer\Queries\" />
     <Folder Include="DataBase\User\Queries\" />
   </ItemGroup>

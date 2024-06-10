@@ -6,7 +6,7 @@ using WebApi.Booking.Domain.Models.User;
 
 namespace WebApi.Booking.Application.DataBase
 {
-    public interface IDataServicesContext
+    public interface IDataBaseServices
     {
         DbSet<UserEntity> User { get; set; }
 

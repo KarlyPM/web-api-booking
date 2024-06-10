@@ -7,7 +7,7 @@ using WebApi.Booking.Persistence.Configuration;
 
 namespace WebApi.Booking.Persistence.Database
 {
-    public class DataServicesContext : DbContext, IDataServicesContext
+    public class DataServicesContext : DbContext, IDataBaseServices
     {
         public DataServicesContext(DbContextOptions options) : base(options)
         {

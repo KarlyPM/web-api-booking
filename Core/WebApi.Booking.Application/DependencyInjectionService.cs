@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebApi.Booking.Application.Configuration;
+using WebApi.Booking.Application.DataBase.User.Commands.CreateUser;
+using WebApi.Booking.Application.DataBase.User.Commands.DeleteUser;
+using WebApi.Booking.Application.DataBase.User.Commands.UpdateUser;
+using WebApi.Booking.Application.DataBase.User.Commands.UpdateUserPassword;
 
 namespace WebApi.Booking.Application
 {
@@ -19,6 +18,10 @@ namespace WebApi.Booking.Application
             });
 
             services.AddSingleton(mapper.CreateMapper()); //para mapear los objetos
+            services.AddTransient<ICreateUserCommand, CreateUserCommand>();
+            services.AddTransient<IUpdateUserCommand, UpdateUserCommand>();
+            services.AddTransient<IDeleteUserCommand, DeleteUserCommand>();
+            services.AddTransient<IUpdateUserPasswordCommand, UpdateUserPasswordCommand>();
 
             return services;
 
