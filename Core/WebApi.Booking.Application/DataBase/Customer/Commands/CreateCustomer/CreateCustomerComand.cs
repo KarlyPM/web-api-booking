@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using WebApi.Booking.Domain.Models.Customer;
-using WebApi.Booking.Domain.Models.User;
 
 namespace WebApi.Booking.Application.DataBase.Customer.Commands.CreateCustomer
 {
@@ -16,7 +15,7 @@ namespace WebApi.Booking.Application.DataBase.Customer.Commands.CreateCustomer
 
         }
 
-        public async Task<CreateCustomerModel> Execute (CreateCustomerModel model)
+        public async Task<CreateCustomerModel> Execute(CreateCustomerModel model)
         {
             var entity = _mapper.Map<CustomerEntity>(model);
 

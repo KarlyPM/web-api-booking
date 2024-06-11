@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Threading.Tasks;
 using WebApi.Booking.Domain.Models.Booking;
 using WebApi.Booking.Domain.Models.Customer;
 using WebApi.Booking.Domain.Models.User;

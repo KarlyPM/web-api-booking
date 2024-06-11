@@ -1,10 +1,11 @@
 ﻿using WebApi.Booking.Domain.Models.Customer;
 using WebApi.Booking.Domain.Models.User;
 
-namespace WebApi.Booking.Application.DataBase.Bookings.Commands.CreateBooking
+namespace WebApi.Booking.Application.DataBase.Bookings.Commands.UpdateBooking
 {
-    public class CreateBookingModel
+    public class UpdateBookingModel
     {
+        public int BookingId { get; set; }
         public DateTime RegisterDate { get; set; }
         public string Code { get; set; }
         public string Type { get; set; }

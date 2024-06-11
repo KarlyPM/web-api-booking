@@ -1,10 +1,4 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebApi.Booking.Application.DataBase.User.Commands.CreateUser;
 using WebApi.Booking.Domain.Models.User;
 
 namespace WebApi.Booking.Application.DataBase.User.Commands.UpdateUser
@@ -24,7 +18,7 @@ namespace WebApi.Booking.Application.DataBase.User.Commands.UpdateUser
         public async Task<UpdateUserModel> Execute(UpdateUserModel model)
         {
             var entity = _mapper.Map<UserEntity>(model);
-            
+
             _dataBaseServices.User.Update(entity);
             await _dataBaseServices.SaveAsync();
 
