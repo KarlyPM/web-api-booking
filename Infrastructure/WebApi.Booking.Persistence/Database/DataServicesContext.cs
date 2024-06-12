@@ -2,6 +2,7 @@
 using WebApi.Booking.Application.DataBase;
 using WebApi.Booking.Domain.Models.Booking;
 using WebApi.Booking.Domain.Models.Customer;
+using WebApi.Booking.Domain.Models.Rol;
 using WebApi.Booking.Domain.Models.User;
 using WebApi.Booking.Persistence.Configuration;
 
@@ -13,8 +14,10 @@ namespace WebApi.Booking.Persistence.Database
         {
 
         }
-
         public DbSet<UserEntity> User { get; set; }
+
+        public DbSet<RolEntity> Rol { get; set; }
+
         public DbSet<CustomerEntity> Customer { get; set; }
 
         public DbSet<BookingEntity> Booking { get; set; }
@@ -38,6 +41,8 @@ namespace WebApi.Booking.Persistence.Database
             new UserConfiguration(modelBuilder.Entity<UserEntity>());
             new CustomerConfiguration(modelBuilder.Entity<CustomerEntity>());
             new BookingConfiguration(modelBuilder.Entity<BookingEntity>());
+            new RolConfiguration(modelBuilder.Entity<RolEntity>());
+
         }
 
     }

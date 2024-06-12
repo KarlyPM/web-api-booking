@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebApi.Booking.Domain.Models.Customer;
+﻿using WebApi.Booking.Domain.Models.Customer;
 using WebApi.Booking.Domain.Models.User;
 
 namespace WebApi.Booking.Domain.Models.Booking

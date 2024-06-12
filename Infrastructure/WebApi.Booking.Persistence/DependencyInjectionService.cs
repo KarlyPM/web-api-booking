@@ -16,16 +16,16 @@ namespace WebApi.Booking.Persistence
             services.AddScoped<IDataBaseServices, DataServicesContext>();
 
 
-            System.Reflection.Assembly.GetExecutingAssembly()
-                .GetTypes()
-                .Where(a => a.Name.StartsWith("Repository") && !a.IsAbstract && !a.IsInterface)
-                .Select(a => new { assignedType = a, serviceTypes = a.GetInterfaces().ToList() })
-                .ToList()
-                .ForEach(typesToRegister =>
-                {
-                    typesToRegister.serviceTypes.ForEach(
-                        typeToRegister => services.AddScoped(typeToRegister, typesToRegister.assignedType));
-                });
+            //System.Reflection.Assembly.GetExecutingAssembly()
+            //    .GetTypes()
+            //    .Where(a => a.Name.StartsWith("Repository") && !a.IsAbstract && !a.IsInterface)
+            //    .Select(a => new { assignedType = a, serviceTypes = a.GetInterfaces().ToList() })
+            //    .ToList()
+            //    .ForEach(typesToRegister =>
+            //    {
+            //        typesToRegister.serviceTypes.ForEach(
+            //            typeToRegister => services.AddScoped(typeToRegister, typesToRegister.assignedType));
+            //    });
 
             return services;
 

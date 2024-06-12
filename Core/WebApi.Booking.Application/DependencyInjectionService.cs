@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using WebApi.Booking.Application.Configuration;
+using WebApi.Booking.Application.DataBase.Bookings.Commands.CreateBooking;
 using WebApi.Booking.Application.DataBase.Bookings.Queries.GetAllBooking;
+using WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingByCode;
 using WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingById;
+using WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingByType;
 using WebApi.Booking.Application.DataBase.Customer.Commands.CreateCustomer;
 using WebApi.Booking.Application.DataBase.Customer.Queries.GetAllCustomer;
 using WebApi.Booking.Application.DataBase.Customer.Queries.GetCustomerByDocumentNumber;
@@ -24,6 +27,8 @@ namespace WebApi.Booking.Application
             {
                 config.AddProfile(new MapperProfile());
             });
+
+            //inyectar dependencias
 
             #region User
             services.AddSingleton(mapper.CreateMapper()); // para mapear los objetos
@@ -47,7 +52,10 @@ namespace WebApi.Booking.Application
             #region Booking
             services.AddTransient<IGetAllBookingQuery, GetAllBookingQuery>();
             services.AddTransient<IGetBookingByIdQuery, GetBookingByIdQuery>();
-
+            services.AddTransient<ICreateBookingCommand, CreateBookingCommand>();
+            services.AddTransient<IGetBookingByTypeQuery, GetBookingByTypeQuery>();
+            services.AddTransient<IGetBookingByCodeQuery, GetBookingByCodeQuery>();
+            
             #endregion
             return services;
 

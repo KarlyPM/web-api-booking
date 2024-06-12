@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using WebApi.Booking.Application.DataBase.Bookings.Queries.GetAllBooking;
+using WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingByCode;
 using WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingById;
+using WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingByType;
 using WebApi.Booking.Application.DataBase.Customer.Commands.CreateCustomer;
 using WebApi.Booking.Application.DataBase.Customer.Commands.UpdateCustomer;
 using WebApi.Booking.Application.DataBase.Customer.Queries.GetAllCustomer;
@@ -40,6 +42,8 @@ namespace WebApi.Booking.Application.Configuration
             #region Booking
             CreateMap<BookingEntity, GetAllBookingModel>().ReverseMap();
             CreateMap<BookingEntity, GetBookingByIdModel>().ReverseMap();
+            CreateMap<BookingEntity, GetBookingByTypeModel>().ReverseMap();
+            CreateMap<BookingEntity, GetBookingByCodeModel>().ReverseMap();
 
             #endregion
         }

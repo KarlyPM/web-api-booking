@@ -2,6 +2,7 @@
 {
     public interface ICreateBookingCommand
     {
+        Task<CreateBookingModel> Execute(CreateBookingModel model);
 
     }
 }

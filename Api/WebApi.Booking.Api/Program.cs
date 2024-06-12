@@ -1,8 +1,6 @@
 using WebApi.Booking.Api;
 using WebApi.Booking.Application;
-using WebApi.Booking.Application.DataBase.Customer.Queries.GetAllCustomer;
-using WebApi.Booking.Application.DataBase.User.Commands.UpdateUser;
-using WebApi.Booking.Application.DataBase.User.Queries.GetAllUser;
+using WebApi.Booking.Application.DataBase.Bookings.Queries.GetAllBooking;
 using WebApi.Booking.Common;
 using WebApi.Booking.External;
 using WebApi.Booking.Persistence;
@@ -17,7 +15,7 @@ builder.Services
     .AddPersistence(builder.Configuration);
 var app = builder.Build();
 
-app.MapGet("/api/users", async (IGetAllUserQuery services) =>
+app.MapGet("/api/users", async (IGetAllBookingQuery services) =>
 {
     //var user = new UpdateUserModel
     //{

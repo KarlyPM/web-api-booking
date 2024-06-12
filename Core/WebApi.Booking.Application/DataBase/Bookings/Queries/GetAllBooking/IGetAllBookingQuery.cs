@@ -2,6 +2,6 @@
 {
     public interface IGetAllBookingQuery
     {
-        Task<List<GetAllBookingQuery>> Execute();
+        Task<List<GetAllBookingModel>> Execute();
     }
 }
