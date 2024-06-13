@@ -13,6 +13,6 @@ namespace WebApi.Booking.Domain.Models.Booking
         public int CustomerId { get; set; }
         public UserEntity User { get; set; }
         public CustomerEntity Customer { get; set; }
-
+          
     }
 }
