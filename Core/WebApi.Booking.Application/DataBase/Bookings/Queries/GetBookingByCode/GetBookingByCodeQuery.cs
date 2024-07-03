@@ -15,9 +15,9 @@ namespace WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingByCode
 
         }
 
-        public async Task<List<GetBookingByCodeModel>> Execute(string type)
+        public async Task<List<GetBookingByCodeModel>> Execute(string code)
         {
-            var entity = await _dataBaseServices.Booking.FirstOrDefaultAsync(x => x.Type == type);
+            var entity = await _dataBaseServices.Booking.FirstOrDefaultAsync(x => x.Code == code);
 
             return _mapper.Map<List<GetBookingByCodeModel>>(entity);
 

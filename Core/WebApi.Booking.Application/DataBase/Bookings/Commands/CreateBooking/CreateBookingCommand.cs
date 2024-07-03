@@ -1,7 +1,5 @@
 ﻿using AutoMapper;
-using WebApi.Booking.Application.DataBase.Customer.Commands.CreateCustomer;
 using WebApi.Booking.Domain.Models.Booking;
-using WebApi.Booking.Domain.Models.Customer;
 
 namespace WebApi.Booking.Application.DataBase.Bookings.Commands.CreateBooking
 {

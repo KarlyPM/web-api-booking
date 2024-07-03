@@ -2,6 +2,7 @@
 {
     public interface IGetBookingByIdQuery
     {
-        Task<List<GetBookingByIdModel>> Execute();
+        Task<List<GetBookingByIdModel>> Execute(int bookingId);
+    
     }
 }

@@ -16,9 +16,9 @@ namespace WebApi.Booking.Application.DataBase.Bookings.Queries.GetBookingById
 
         }
 
-        public async Task<List<GetBookingByIdModel>> Execute()
+        public async Task<List<GetBookingByIdModel>> Execute(int bookingId)
         {
-            var list = await _dataBaseServices.Booking.ToListAsync();
+            var list = await _dataBaseServices.Booking.FirstOrDefaultAsync(x => x.BookingId == bookingId);
             return _mapper.Map<List<GetBookingByIdModel>>(list);
         }
     }

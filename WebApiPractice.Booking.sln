@@ -21,7 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4CCD88
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.Domain", "Core\WebApi.Booking.Domain\WebApi.Booking.Domain.csproj", "{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Common", "Common\WebApi.Booking.Common\WebApi.Booking.Common.csproj", "{141BFC02-3E60-40E7-B348-C221F554EED6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Booking.Common", "Common\WebApi.Booking.Common\WebApi.Booking.Common.csproj", "{141BFC02-3E60-40E7-B348-C221F554EED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6A0B51D2-3635-47B0-B594-D24FE518FAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Booking.Test", "Test\WebApi.Booking.Test\WebApi.Booking.Test.csproj", "{EC768179-3CD6-4E22-B714-BDF76E531674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{141BFC02-3E60-40E7-B348-C221F554EED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{141BFC02-3E60-40E7-B348-C221F554EED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{141BFC02-3E60-40E7-B348-C221F554EED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC768179-3CD6-4E22-B714-BDF76E531674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC768179-3CD6-4E22-B714-BDF76E531674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC768179-3CD6-4E22-B714-BDF76E531674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC768179-3CD6-4E22-B714-BDF76E531674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{455E06A7-99DF-488F-9C23-BBEA92113ACA} = {085AC304-D7FF-4B4D-A627-6A13E7EE53AF}
 		{F420B7C7-68B9-46AF-9D1E-F6E6145DDD31} = {BB0348E2-498F-45F5-8D6F-55D4C5F4BB38}
 		{141BFC02-3E60-40E7-B348-C221F554EED6} = {4CCD88D2-3345-4335-9AD9-99C91F296BC3}
+		{EC768179-3CD6-4E22-B714-BDF76E531674} = {6A0B51D2-3635-47B0-B594-D24FE518FAAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7F6AED6-ACF6-422C-B55F-070335056229}

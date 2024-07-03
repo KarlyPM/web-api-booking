@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿  using Microsoft.EntityFrameworkCore;
 
 namespace WebApi.Booking.Application.DataBase.Bookings.Commands.DeleteBooking
 {
@@ -8,7 +8,7 @@ namespace WebApi.Booking.Application.DataBase.Bookings.Commands.DeleteBooking
 
         public DeleteBookingCommand(IDataBaseServices dataBaseServices)
         {
-            _dataBaseServices = dataBaseServices;
+            _dataBaseServices = dataBaseServices; 
 
         }
 
